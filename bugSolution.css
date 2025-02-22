@@ -1,0 +1,8 @@
+The corrected CSS code ensures that there's a space between operators and values in the `calc()` function:
+
+```css
+div {
+  width: calc(50% - 10px);
+}
+```
+This will correctly calculate the width as 50% of the container's width, minus 10 pixels.
